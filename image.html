@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Colors for navigation buttons */
+        nav a[href="#home"] {
+            background-color: #791207;
+        }
+
+        nav a[href="#technology"] {
+            background-color: #791207;
+        }
+
+        nav a[href="#nature"] {
+            background-color: #791207;
+        }
+
+        nav a[href="#food"] {
+            background-color: #791207;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#technology">Technology</a>
+        <a href="#nature">Nature</a>
+        <a href="#food">Food</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the latest in technology.</p>
+        <a href="#technology">
+            <img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Tech.jpg" alt="Technology Image">
+        </a>
+    </section>
+    <section id="technology">
+        <h2>Technology</h2>
+        <div class="grid">
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Tech 1.jpg" width="200px" alt="Img of Tech "></a>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Tech 3.jpg" width="200px" alt="Img of Tech "></a>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Tech.jpg" width="200px" alt="Img of Tech "></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="nature">
+        <h2>Nature</h2>
+        <div class="grid">
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Nature 1.jpg" width="200px" alt="Nature"></a>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Nature 2.jpg" width="200px" alt="Nature "></a>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Nature 3.jpeg" width="200px" alt="Nature "></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Food</h2>
+    <div class="grid">
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Food 1.png" width="200px" alt="Stew"></a></li>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Food 2.png" width="200px" alt="Soup"></a></li>
+            <a href="#"><img src="C:\Users\MR KUNLE\Desktop\DARA TECH WEB DESIGN\PLP Task\Food 3.png" width="200px" alt="Jollof Rice"></a></li>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+</body>
+</html>
